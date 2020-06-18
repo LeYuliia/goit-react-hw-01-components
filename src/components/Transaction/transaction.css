@@ -1,0 +1,39 @@
+.table {
+  width: 400px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: 40px;
+}
+
+.columns {
+  height: 40px;
+  background-color: rgb(126, 186, 243);
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.columns-name {
+  padding: 0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightblue;
+  font-weight: normal;
+}
+.string-container {
+  height: 40px;
+  color: rgb(128, 123, 123);
+}
+
+.string-container:nth-child(2n) {
+  background-color: rgba(211, 211, 211, 0.466);
+}
+
+.string {
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightgrey;
+}
+
+.type {
+  text-transform: capitalize;
+}

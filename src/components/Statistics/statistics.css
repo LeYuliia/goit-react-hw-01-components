@@ -1,0 +1,34 @@
+.statistics {
+  background-color: rgba(209, 211, 212, 0.685);
+  width: 400px;
+  padding: 80px;
+  text-align: center;
+}
+
+.title {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0;
+  text-transform: uppercase;
+  color: rgb(116, 113, 113);
+  font-size: 18px;
+}
+
+.stat-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.item {
+  display: inline-block;
+  width: 20%;
+  color: #ffffff;
+}
+
+.item span {
+  display: block;
+}
+
+.percentage {
+  font-size: 18px;
+}
